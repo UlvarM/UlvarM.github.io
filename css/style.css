@@ -1,0 +1,101 @@
+.headerBar {
+  background-color: white;
+  overflow: hidden;
+}
+
+.headerBar img{
+  height: 30px;
+  width: 30px;
+  margin-top: -5px;
+  opacity: 60%;
+}
+
+.headerBar a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+
+.logo {
+margin-top: 15%;
+}
+
+.searchBar {
+margin-top: 2%;
+}
+
+.searchBar input {
+  height: 40px;
+  width: 525px;
+  border-radius: 40px;
+  padding-left: 20px;
+  border: solid lightGray 2px;
+  font-size: 15px;
+}
+
+.searchBar input[type=text]:hover{
+  box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+}
+input[type=text]:focus {
+  box-shadow: 0 0 5pt 2pt #D3D3D3;
+  outline-width: 0px;
+}
+
+.buttons{
+  padding: 20px;
+}
+
+#search{
+  width: 125px;
+  height: 30px;
+  border: solid lightGray 1px;
+  border-radius: 5px;
+}
+
+#lucky{
+  width: 125px;
+  height: 30px;
+  border: solid lightGray 1px;
+  border-radius: 5px;
+}
+
+
+.footerBar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 0;
+    text-align: center;
+    background-color: #f2f2f2;
+    right: 1px;
+    border-top: solid lightGray 1px;
+}
+
+
+.footerright a {
+  float: right;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  padding-right: 20px;
+  color: gray;
+  margin-right: 10px;
+}
+
+.footerleft a {
+  float: left;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 0px 0px 0px 16px;
+  color: gray;
+}
